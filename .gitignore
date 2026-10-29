@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local environment and secrets
+.env
+.env.*
+
+# Raw and downloaded datasets
+data/raw/
+data/reference/
+data/benchmarks/
+data/clinvar/
+
+# Generated analysis outputs
+results/
+logs/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore local datasets and derived data by default
+data/*
+!data/README.md
+
+# Ignore generated reports and plots
+results/
+logs/
+
+# Local caches and temporary files
+*.tmp
+*.log
+.DS_Store
